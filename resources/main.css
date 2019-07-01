@@ -21,6 +21,7 @@ h1 {
     min-height: 100px;
     background-color: blue;
     border: 1px solid lightgray;
+    margin: 0 5px;
 }
 
 #justify-flex-start {
