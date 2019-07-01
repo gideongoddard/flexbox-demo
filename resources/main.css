@@ -72,6 +72,10 @@ h1 {
     height: 125px;
 }
 
-.grow {
+#grow1 {
     flex-grow: 1;
+}
+
+#grow2 {
+    flex-grow: 2;
 }
