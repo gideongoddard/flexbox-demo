@@ -70,3 +70,7 @@ h1 {
 #long-box {
     height: 125px;
 }
+
+.grow {
+    flex-grow: 1;
+}
