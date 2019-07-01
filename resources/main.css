@@ -17,7 +17,7 @@ h1 {
 }
 
 .box {
-    width: 100px;
+    width: 200px;
     min-height: 100px;
     background-color: blue;
     border: 1px solid lightgray;
@@ -78,4 +78,12 @@ h1 {
 
 #grow2 {
     flex-grow: 2;
+}
+
+#shrink0 {
+    flex-shrink: 0;
+}
+
+#shrink2 {
+    flex-shrink: 2;
 }
