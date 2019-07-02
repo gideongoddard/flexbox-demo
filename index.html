@@ -8,17 +8,17 @@
     <link rel="stylesheet" type="text/css" href="./resources/main.css">
 </head>
 <body>
-    <h1>justify-content: flex-start; flex-grow: [x];</h1>
+    <h1>justify-content: flex-start;</h1>
     <div class="container" id="justify-flex-start">
         <div class="box"></div>
-        <div class="box" id="grow1"></div>
-        <div class="box" id="grow2"></div>
+        <div class="box"></div>
+        <div class="box"></div>
     </div>
-    <h1>justify-content: flex-end; flex-shrink: [x];</h1>
+    <h1>justify-content: flex-end;</h1>
     <div class="container" id="justify-flex-end">
-        <div class="box wide" id="shrink0"></div>
-        <div class="box wide"></div>
-        <div class="box wide" id="shrink2"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
     </div>
     <h1>justify-content: center;</h1>
     <div class="container" id="justify-center">
@@ -67,6 +67,36 @@
         <div class="box stretch-box"></div>
         <div class="box stretch-box"></div>
         <div class="box stretch-box"></div>
+    </div>
+    <h1>flex-grow: [x];</h1>
+    <div class="container" id="flex-grow">
+        <div class="box"></div>
+        <div class="box" id="grow1"></div>
+        <div class="box" id="grow2"></div>
+    </div>
+    <h1>flex-shrink: [x];</h1>
+    <div class="container" id="flex-shrink">
+        <div class="box wide" id="shrink0"></div>
+        <div class="box wide"></div>
+        <div class="box wide" id="shrink2"></div>
+    </div>
+    <h1>flex-basis;</h1>
+    <div class="container" id="flex-basis-grow">
+        <div class="box"></div>
+        <div class="box" id="basis-grow"></div>
+        <div class="box"></div>
+    </div>
+    <br>
+    <div class="container" id="flex-basis-shrink">
+        <div class="box"></div>
+        <div class="box" id="basis-shrink"></div>
+        <div class="box"></div>
+    </div>
+    <h1>flex;</h1>
+    <div class="container" id="flex">
+        <div class="box" id="flex1"></div>
+        <div class="box" id="flex2"></div>
+        <div class="box" id="flex3"></div>
     </div>
 </body>
 </html>
