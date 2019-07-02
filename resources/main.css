@@ -14,7 +14,7 @@ h1 {
     background-color: antiquewhite;
     display: flex;
     margin: auto;
-    height: 150px;
+    min-height: 150px;
 }
 
 .box {
@@ -22,7 +22,7 @@ h1 {
     min-height: 100px;
     background-color: blue;
     border: 1px solid lightgray;
-    margin: 0 5px;
+    margin: 5px;
 }
 
 #justify-flex-start {
@@ -110,4 +110,12 @@ h1 {
 
 #flex3 {
     flex: 3 3 200px;
+}
+
+#wrap {
+    flex-wrap: wrap;
+}
+
+#wrap-reverse {
+    flex-wrap: wrap-reverse;
 }
